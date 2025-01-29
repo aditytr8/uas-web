@@ -1,0 +1,11 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: hsl(185, 77%, 85%);
+}
+#skill{
+    background-color: #f3f4f5;
+}
+.jumbotron img{
+    height: 200px;
+    object-fit: cover;
+}

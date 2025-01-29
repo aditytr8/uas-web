@@ -1,0 +1,63 @@
+/*-- NAVBAR --*/
+#main-navbar{
+    z-index: 100;
+}
+.navbar {
+    height: 65px; /* Sesuaikan dengan desain navbar */
+}
+#main-navbar a{
+    border-bottom:3px solid#212529 ;
+    text-transform: uppercase;
+}
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: rgb(44, 235, 246);
+    transition: border-color 500ms;
+}
+.main-logo {
+    height: 50px;
+}
+/* MAIN SLIDER - Halaman Home */
+
+#main-slide{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#main-slide img{
+    margin-top: 100px;
+}
+
+.bg-info{   /* Agar warna background bg-info sedikit lebih*/
+    background-color: #17a2b8 !important;
+}
+
+#main-slide h3{
+    margin-top: 30vh;
+}
+
+.row img{
+    float: right;
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+#slide1{
+    background-image: url('../img/slide1.jpg');
+}
+
+#slide2{
+    background-image: url('../img/slide2.jpg');
+}
+
+#slide3{
+    background-image: url('../img/slide3.jpg');
+}
+
+#profile, #services, #team, #blog{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
